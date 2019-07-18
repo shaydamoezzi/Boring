@@ -1,0 +1,50 @@
+Last login: Wed Jun 19 09:18:56 on ttys001
+Shaydas-MacBook:~ shaydamoezzi$ pwd
+/Users/shaydamoezzi
+Shaydas-MacBook:~ shaydamoezzi$ /Users/shaydamoezzi/BoringStuff
+-bash: /Users/shaydamoezzi/BoringStuff: No such file or directory
+Shaydas-MacBook:~ shaydamoezzi$ /Users/shaydamoezzi/Boring-Stuff
+-bash: /Users/shaydamoezzi/Boring-Stuff: No such file or directory
+Shaydas-MacBook:~ shaydamoezzi$ /Users/shaydamoezzi/BoringStuff
+-bash: /Users/shaydamoezzi/BoringStuff: is a directory
+Shaydas-MacBook:~ shaydamoezzi$ /Users/shaydamoezzi/BoringStuff
+-bash: /Users/shaydamoezzi/BoringStuff: is a directory
+Shaydas-MacBook:~ shaydamoezzi$ cwd /Users/shaydamoezzi/BoringStuff:
+-bash: cwd: command not found
+Shaydas-MacBook:~ shaydamoezzi$ /Users/shaydamoezzi/BoringStuff
+-bash: /Users/shaydamoezzi/BoringStuff: is a directory
+Shaydas-MacBook:~ shaydamoezzi$ Python HelloWorld.py
+Python: can't open file 'HelloWorld.py': [Errno 2] No such file or directory
+Shaydas-MacBook:~ shaydamoezzi$ /Users/shaydamoezzi/BoringStuff/HelloWorld.py
+-bash: /Users/shaydamoezzi/BoringStuff/HelloWorld.py: Permission denied
+Shaydas-MacBook:~ shaydamoezzi$ sudo Users/shaydamoezzi/BoringStuff/HelloWorld.py
+Password:
+sudo: Users/shaydamoezzi/BoringStuff/HelloWorld.py: command not found
+Shaydas-MacBook:~ shaydamoezzi$ /Users/shaydamoezzi/BoringStuff/HelloWorld.py
+-bash: /Users/shaydamoezzi/BoringStuff/HelloWorld.py: Permission denied
+Shaydas-MacBook:~ shaydamoezzi$ whoami
+shaydamoezzi
+Shaydas-MacBook:~ shaydamoezzi$ sudo chown -R "$USER:" /Users/shaydamoezzi/BoringStuff/HelloWorld.py
+Shaydas-MacBook:~ shaydamoezzi$ /Users/shaydamoezzi/BoringStuff/HelloWorld.py
+-bash: /Users/shaydamoezzi/BoringStuff/HelloWorld.py: Permission denied
+Shaydas-MacBook:~ shaydamoezzi$ chmod -R 700 /Users/shaydamoezzi/BoringStuff/HelloWorld.py
+Shaydas-MacBook:~ shaydamoezzi$ /Users/shaydamoezzi/BoringStuff/HelloWorld.py
+/Users/shaydamoezzi/BoringStuff/HelloWorld.py: line 1: syntax error near unexpected token `'Hello World!''
+/Users/shaydamoezzi/BoringStuff/HelloWorld.py: line 1: `print('Hello World!')'
+Shaydas-MacBook:~ shaydamoezzi$ 
+Shaydas-MacBook:~ shaydamoezzi$ python HelloWorld.py
+python: can't open file 'HelloWorld.py': [Errno 2] No such file or directory
+Shaydas-MacBook:~ shaydamoezzi$ python Users/shaydamoezzi/BoringStuff/HelloWorld.py
+python: can't open file 'Users/shaydamoezzi/BoringStuff/HelloWorld.py': [Errno 2] No such file or directory
+Shaydas-MacBook:~ shaydamoezzi$ python /Users/shaydamoezzi/BoringStuff/HelloWorld.py
+Hello World!
+What is your name?
+shayda
+It is nice to meet you shayda!
+Shaydas-MacBook:~ shaydamoezzi$ cd BoringStuff
+Shaydas-MacBook:BoringStuff shaydamoezzi$ Python HelloWorld.py
+Hello World!
+What is your name?
+Shayda
+It is nice to meet you Shayda!
+Shaydas-MacBook:BoringStuff shaydamoezzi$ 

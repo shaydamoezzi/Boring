@@ -1,0 +1,215 @@
+Last login: Wed Jun 19 11:06:42 on ttys002
+shaydas-macbook:~ shaydamoezzi$ cd /Users/shaydamoezzi/BoringStuff
+shaydas-macbook:BoringStuff shaydamoezzi$ python Functions.py
+  File "Functions.py", line 7
+    if user == 'shaydamoezzi'
+                            ^
+SyntaxError: invalid syntax
+shaydas-macbook:BoringStuff shaydamoezzi$ python Functions.py
+Username: 
+shaydamoezzi
+Password: 
+password                                           
+shaydas-macbook:BoringStuff shaydamoezzi$ python Functions.py
+  File "Functions.py", line 10
+    return 'access granted'
+    ^
+SyntaxError: 'return' outside function
+shaydas-macbook:BoringStuff shaydamoezzi$ python Functions.py
+Traceback (most recent call last):
+  File "Functions.py", line 8, in <module>
+    if user == 'shaydamoezzi':
+NameError: name 'user' is not defined
+shaydas-macbook:BoringStuff shaydamoezzi$ python Functions.py
+Username: 
+shaydamoezzi
+Password: 
+password
+access granted
+shaydas-macbook:BoringStuff shaydamoezzi$ python Functions.py
+Username: 
+shaydamoezzi
+Password: 
+oef
+shaydas-macbook:BoringStuff shaydamoezzi$ python Functions.py
+Username: 
+shayda
+Password: 
+password
+access denied
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+None
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+None
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+None
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+Outlook not so good
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+It is certain
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+My reply is no
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+Ask again later
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+Traceback (most recent call last):
+  File "MoreFunction.py", line 23, in <module>
+    print('Your lucky number was: ' + yourNumber)
+TypeError: must be str, not int
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+Your lucky number was: 9
+Your fortune is: Very doubtful
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+Your lucky number was: 3
+Your fortune is: Yes
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+Your lucky number was: 7
+Your fortune is: My reply is no
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+Your lucky number was: 4
+Your fortune is: Reply hazy try again
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+Your lucky number was: 8
+Your fortune is: Outlook not so good
+shaydas-macbook:BoringStuff shaydamoezzi$ 
+shaydas-macbook:BoringStuff shaydamoezzi$ python MoreFunction.py
+Your lucky number was: 1
+Your fortune is: It is certain
+shaydas-macbook:BoringStuff shaydamoezzi$ python GuessTheNumber.py
+I am thinking of a number between 1 and 20.
+Take a guess.
+5
+Your guess is too low.
+Take a guess.
+16
+Your guess is too low.
+Take a guess.
+18
+Your guess is too low.
+Take a guess.
+19
+Good job! You guessed my number in 4 guesses!
+shaydas-macbook:BoringStuff shaydamoezzi$ python GuessTheNumber.py
+I am thinking of a number between 1 and 20.
+Take a guess.
+4
+Your guess is too low.
+Take a guess.
+4
+Your guess is too low.
+Take a guess.
+5
+Your guess is too low.
+Take a guess.
+8
+Your guess is too low.
+Take a guess.
+9
+Your guess is too low.
+Take a guess.
+10
+Your guess is too low.
+Nope. The number I was thinking of was 14
+shaydas-macbook:BoringStuff shaydamoezzi$ cd /Users/shaydamoezzi/Documents/Jupyter
+shaydas-macbook:Jupyter shaydamoezzi$ python Running_Code.ipynb
+python: can't open file 'Running_Code.ipynb': [Errno 2] No such file or directory
+shaydas-macbook:Jupyter shaydamoezzi$ python Running Code.ipynb
+python: can't open file 'Running': [Errno 2] No such file or directory
+shaydas-macbook:Jupyter shaydamoezzi$ python RunningCode.ipynb
+python: can't open file 'RunningCode.ipynb': [Errno 2] No such file or directory
+shaydas-macbook:Jupyter shaydamoezzi$ Python /Users/shaydamoezzi/Documents/Jupyter/docs/source/examples/Notebook/RunningCode.ipynb
+Traceback (most recent call last):
+  File "/Users/shaydamoezzi/Documents/Jupyter/docs/source/examples/Notebook/RunningCode.ipynb", line 35, in <module>
+    "collapsed": false
+NameError: name 'false' is not defined
+shaydas-macbook:Jupyter shaydamoezzi$ Python /Users/shaydamoezzi/Documents/Jupyter/docs/source/examples/Notebook/conf.py
+Python: can't open file '/Users/shaydamoezzi/Documents/Jupyter/docs/source/examples/Notebook/conf.py': [Errno 2] No such file or directory
+shaydas-macbook:Jupyter shaydamoezzi$ Python /Users/shaydamoezzi/Documents/Jupyter/docs/source/conf
+conf.py              config_overview.rst  
+shaydas-macbook:Jupyter shaydamoezzi$ Python /Users/shaydamoezzi/Documents/Jupyter/docs/source/conf.py
+DEBUG:: sys.path
+================
+/Users/shaydamoezzi/Documents/Jupyter/docs/source
+/anaconda3/lib/python36.zip
+/anaconda3/lib/python3.6
+/anaconda3/lib/python3.6/lib-dynload
+/anaconda3/lib/python3.6/site-packages
+/anaconda3/lib/python3.6/site-packages/aeosa
+/anaconda3/lib/python3.6/site-packages/matplotlib-3.1.0+1213.g63d96d286-py3.6-macosx-10.7-x86_64.egg
+/anaconda3/lib/python3.6/site-packages/kiwisolver-1.1.0-py3.6-macosx-10.7-x86_64.egg
+repo_root
+=====================
+/Users/shaydamoezzi/Documents/Jupyter
+DEBUG:: Post insert to sys.path
+===============================
+/Users/shaydamoezzi/Documents/Jupyter
+/Users/shaydamoezzi/Documents/Jupyter/docs/source
+/anaconda3/lib/python36.zip
+/anaconda3/lib/python3.6
+/anaconda3/lib/python3.6/lib-dynload
+/anaconda3/lib/python3.6/site-packages
+/anaconda3/lib/python3.6/site-packages/aeosa
+/anaconda3/lib/python3.6/site-packages/matplotlib-3.1.0+1213.g63d96d286-py3.6-macosx-10.7-x86_64.egg
+/anaconda3/lib/python3.6/site-packages/kiwisolver-1.1.0-py3.6-macosx-10.7-x86_64.egg
+Traceback (most recent call last):
+  File "/Users/shaydamoezzi/Documents/Jupyter/docs/source/conf.py", line 104, in <module>
+    exec(compile(open(_version_py).read(), _version_py, 'exec'), version_ns)
+FileNotFoundError: [Errno 2] No such file or directory: '../../notebook/_version.py'
+shaydas-macbook:Jupyter shaydamoezzi$ Python /docs/source/conf.py
+Python: can't open file '/docs/source/conf.py': [Errno 2] No such file or directory
+shaydas-macbook:Jupyter shaydamoezzi$ Python conf.py
+Python: can't open file 'conf.py': [Errno 2] No such file or directory
+shaydas-macbook:Jupyter shaydamoezzi$ Python conf.py
+DEBUG:: sys.path
+================
+/Users/shaydamoezzi/Documents/Jupyter
+/anaconda3/lib/python36.zip
+/anaconda3/lib/python3.6
+/anaconda3/lib/python3.6/lib-dynload
+/anaconda3/lib/python3.6/site-packages
+/anaconda3/lib/python3.6/site-packages/aeosa
+/anaconda3/lib/python3.6/site-packages/matplotlib-3.1.0+1213.g63d96d286-py3.6-macosx-10.7-x86_64.egg
+/anaconda3/lib/python3.6/site-packages/kiwisolver-1.1.0-py3.6-macosx-10.7-x86_64.egg
+repo_root
+=====================
+/Users/shaydamoezzi
+DEBUG:: Post insert to sys.path
+===============================
+/Users/shaydamoezzi
+/Users/shaydamoezzi/Documents/Jupyter
+/anaconda3/lib/python36.zip
+/anaconda3/lib/python3.6
+/anaconda3/lib/python3.6/lib-dynload
+/anaconda3/lib/python3.6/site-packages
+/anaconda3/lib/python3.6/site-packages/aeosa
+/anaconda3/lib/python3.6/site-packages/matplotlib-3.1.0+1213.g63d96d286-py3.6-macosx-10.7-x86_64.egg
+/anaconda3/lib/python3.6/site-packages/kiwisolver-1.1.0-py3.6-macosx-10.7-x86_64.egg
+Traceback (most recent call last):
+  File "conf.py", line 104, in <module>
+    exec(compile(open(_version_py).read(), _version_py, 'exec'), version_ns)
+FileNotFoundError: [Errno 2] No such file or directory: '../../notebook/_version.py'
+shaydas-macbook:Jupyter shaydamoezzi$ cd Users/shaydamoezzi
+-bash: cd: Users/shaydamoezzi: No such file or directory
+shaydas-macbook:Jupyter shaydamoezzi$ cd /Users/shaydamoezzi
+shaydas-macbook:~ shaydamoezzi$ jupyter notebook
+[I 10:16:26.748 NotebookApp] JupyterLab beta preview extension loaded from /anaconda3/lib/python3.6/site-packages/jupyterlab
+[I 10:16:26.749 NotebookApp] JupyterLab application directory is /anaconda3/share/jupyter/lab
+[I 10:16:26.763 NotebookApp] Serving notebooks from local directory: /Users/shaydamoezzi
+[I 10:16:26.764 NotebookApp] 0 active kernels
+[I 10:16:26.764 NotebookApp] The Jupyter Notebook is running at:
+[I 10:16:26.764 NotebookApp] http://localhost:8888/?token=c160e3bc5f24380eefabdf8329291a43f485c7638ec1e50e
+[I 10:16:26.764 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:16:26.766 NotebookApp] 
+    
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=c160e3bc5f24380eefabdf8329291a43f485c7638ec1e50e
+[I 10:16:27.079 NotebookApp] Accepting one-time-token-authenticated connection from ::1
+                                                          
+
+
+
+
+eve
+
+rv 
